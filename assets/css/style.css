@@ -107,3 +107,43 @@ ul.social-icons{
 .hero-button button{
     margin-right: 10px;
 }
+.about-section{
+    background-color: #22282f;
+    color: white;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.about-section-desc{
+    margin-left: 100px;
+    max-width: 450px;
+}
+.about-section-desc h4{
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-section-desc h4>span{
+    color: var(--primary);
+}
+.about-section-desc ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.about-section-desc li{
+    margin-bottom: 10px;
+    color: rgb(210, 207, 207);
+}
+.about-section-desc li>a{
+    text-decoration: none;
+    color: rgb(210, 207, 207);
+
+}
+.about-section-desc li>a:hover{
+    color: var(--primary);
+}
+
+.about-section-desc li>strong{
+    color: white;
+}

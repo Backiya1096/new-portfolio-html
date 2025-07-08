@@ -147,3 +147,57 @@ ul.social-icons{
 .about-section-desc li>strong{
     color: white;
 }
+.work-section{
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+.work-section--title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+.work-section--title span{
+    color: var(--primary);
+}
+.work-section-box{
+    background-color: #22282f;
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.work-section-box:hover{
+    background-color: #20252a;
+}
+.work-section-box p{
+    color: gray;
+    font-size: 14px;
+}
+.work-section-box a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.work-section-box--desc{
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.work-section-box--desc p{
+    padding-top: 5px;
+}
+.work-section-box-icon{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.work-section-items{
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -200,4 +200,40 @@ ul.social-icons{
     justify-content: center;
 }
 
+.contact-section{
+    background-color:rgb(20, 20, 20);
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+.contact-section form div>input,textarea{
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    background-color: rgb(46, 45, 45);
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: white;
 
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.contact-section h4 span{
+    color: var(--primary);
+}
+footer{
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--primary);
+}

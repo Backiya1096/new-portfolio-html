@@ -237,3 +237,6 @@ footer a{
     text-decoration: none;
     color: var(--primary);
 }
+html{
+    scroll-behavior: smooth;
+}
